@@ -41,7 +41,7 @@ app.get('/', (req, res)=>{
 })
 
 app.get('/values/all', async(req, res)=>{
-  const values = await pgClient.query('SELECT * form values')
+  const values = await pgClient.query('SELECT * from values')
   res.send(values.rows)
 })
 

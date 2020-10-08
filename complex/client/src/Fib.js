@@ -44,6 +44,7 @@ class Fib extends Component {
         </div>
       )
     }
+    return entries
   }
 
   render(){
